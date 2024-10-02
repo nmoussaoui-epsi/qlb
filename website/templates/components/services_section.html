@@ -1,0 +1,31 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'styles/components/services_section.css' %}">
+<section class="services-section">
+    <div class="container">
+        <h2 class="section-title">Nos différents <span class="highlight">services</span></h2>
+        <p class="section-description">Découvrez nos services pour vous aider à réussir votre projet digital.</p>
+        <div class="services-cards">
+            <div class="service-card">
+                <img src="{% static 'icons/webservice-icon.svg' %}" alt="Création de site web" class="service-icon">
+                <h3 class="service-title">Création de site web</h3>
+                <p class="service-description">Nous créons des sites web modernes et responsives pour votre entreprise.</p>
+            </div>
+            <div class="service-card">
+                <img src="{% static 'icons/seoservice-icon.svg' %}" alt="Référencement" class="service-icon">
+                <h3 class="service-title">Référencement</h3>
+                <p class="service-description">Optimisez votre visibilité sur les moteurs de recherche avec notre expertise en SEO.</p>
+            </div>
+            <div class="service-card">
+                <img src="{% static 'icons/marketingservice-icon.svg' %}" alt="Marketing" class="service-icon">
+                <h3 class="service-title">Marketing</h3>
+                <p class="service-description">Développez votre stratégie marketing pour atteindre vos objectifs commerciaux.</p>
+            </div>
+            <div class="service-card">
+                <div class="ribbon">Bientôt disponible</div>
+                <img src="{% static 'icons/mobileservice-icon.svg' %}" alt="Application Mobile" class="service-icon">
+                <h3 class="service-title">Application Mobile</h3>
+                <p class="service-description">Nous développons des applications mobiles innovantes pour toutes les plateformes.</p>
+            </div>
+        </div>
+    </div>
+</section>

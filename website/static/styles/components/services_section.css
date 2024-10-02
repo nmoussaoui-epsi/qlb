@@ -1,0 +1,87 @@
+/* static/styles/components/services_section.css */
+.services-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #db4a2b; /* Orange color for the word "services" */
+}
+
+.section-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.services-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Limiter la largeur maximale des cartes */
+    text-align: center;
+    margin: 0 auto; /* Centrer les cartes */
+    position: relative; /* Pour positionner le bandeau */
+    transition: transform 0.3s ease-in-out; /* Ajouter une transition pour l'effet de survol */
+}
+
+.service-card:hover {
+    transform: translateY(-10px); /* Effet de survol pour élever la carte */
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1rem;
+    color: #666;
+}
+
+.ribbon {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    background-color: #db4a2b;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transform: rotate(45deg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+    .services-cards {
+        flex-direction: row;
+        justify-content: center; /* Centrer les cartes sur les écrans plus larges */
+        flex-wrap: wrap; /* Permettre aux cartes de passer à la ligne suivante si nécessaire */
+    }
+
+    .service-card {
+        margin: 10px; /* Ajouter de l'espace entre les cartes */
+    }
+}

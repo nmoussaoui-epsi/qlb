@@ -1,0 +1,64 @@
+/* static/styles/components/navbar.css */
+.navbar-light .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #db4a2b;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #db4a2b;
+}
+
+.btn-primary {
+    background-color: #db4a2b;
+    border-color: #db4a2b;
+    border-radius: 30px; /* Arrondir le bouton */
+    padding: 10px 20px; /* Ajouter du padding pour un meilleur aspect */
+    font-size: 1rem; /* Ajuster la taille de la police */
+    transition: background-color 0.3s, border-color 0.3s; /* Ajouter une transition pour un effet de survol */
+}
+
+.btn-primary:hover {
+    background-color: #b03a23;
+    border-color: #b03a23;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}
+
+/* Styles personnalisés pour le menu burger */
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("/static/icons/burger.svg");
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon {
+    transform: rotate(0deg);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    transform: rotate(90deg);
+}
