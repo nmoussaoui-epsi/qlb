@@ -1,6 +1,12 @@
-/* website/static/styles/main.css */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f8f9fa;
+    --sb-track-color: #ffffff00;
+    --sb-thumb-color: #db4a2b;
+    --sb-size: 10px;
 }
 
 h1 {
@@ -9,4 +15,26 @@ h1 {
 
 p {
     color: #6c757d;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 20px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
 }

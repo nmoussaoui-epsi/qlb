@@ -1,4 +1,3 @@
-/* static/styles/components/footer_section.css */
 .footer-section {
     background-color: #f5f4f4;
     color: #6d6d6d;
@@ -87,7 +86,6 @@
     font-size: 0.9em;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;

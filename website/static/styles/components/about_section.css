@@ -1,20 +1,18 @@
-/* static/styles/components/about_section.css */
 .about-section {
     padding: 50px 20px;
     display: flex;
-    flex-direction: column; /* Aligner les éléments en colonne */
-    align-items: center; /* Centrer horizontalement */
+    flex-direction: column;
+    align-items: center;
     background-image: url('/static/images/llleaves.svg');
-    background-size: cover; /* Ajuster l'image pour couvrir toute la section */
-    background-position: center; /* Centrer l'image */
-    background-repeat: no-repeat; /* Ne pas répéter l'image */
-    background-size: 80% ;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
     max-width: 1200px;
     width: 100%;
-    text-align: center; /* Centrer le texte */
+    text-align: center;
 }
 
 .section-title {
@@ -24,7 +22,7 @@
 }
 
 .highlight {
-    color: #db4a2b; /* Orange color for the word "Agence" */
+    color: #db4a2b;
 }
 
 .about-description {
@@ -50,7 +48,7 @@
 }
 
 .about-image-container {
-    margin-top: 30px; /* Ajouter de l'espace entre le texte et l'image */
+    margin-top: 30px;
 }
 
 .about-image {
@@ -59,12 +57,7 @@
 }
 
 @media (max-width: 768px) {
-    .about-description {
-        text-align: justify;
-    }
-
     .about-section {
         background-size: 100%;
     }
 }
-

@@ -1,11 +1,10 @@
-/* static/styles/components/hero_section.css */
 .hero-section {
     position: relative;
     display: flex;
     align-items: center;
     padding: 50px 20px;
     color: #fff;
-    overflow: hidden; /* Assurez-vous que les éléments ne débordent pas */
+    overflow: hidden;
     height: 75vh;
 }
 
@@ -17,8 +16,8 @@
     width: 80%;
     height: 100%;
     object-fit: cover;
-    z-index: -1; /* Placez le SVG derrière le contenu */
-    opacity: 0.5; /* Ajustez l'opacité si nécessaire */
+    z-index: -1;
+    opacity: 0.5;
 }
 
 .highlight {
@@ -42,7 +41,7 @@
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    position: relative; /* Assurez-vous que le contenu est au-dessus du SVG */
+    position: relative;
     z-index: 1;
 }
 
@@ -98,7 +97,7 @@
 
 @media (max-width: 767px) {
     .hero-bg {
-        top:25%;
+        top: 25%;
         left: 60%;
         width: 100%;
         height: 100%;
