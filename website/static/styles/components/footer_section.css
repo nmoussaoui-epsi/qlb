@@ -25,38 +25,44 @@
 
 .footer-links,
 .footer-contact,
-.footer-social {
+.footer-social,
+.footer-legal {
     flex: 1;
     margin: 10px;
 }
 
 .footer-links h4,
 .footer-contact h4,
-.footer-social h4 {
+.footer-social h4,
+.footer-legal h4 {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
 .footer-links ul,
-.footer-social ul {
+.footer-social ul,
+.footer-legal ul {
     list-style: none;
     padding: 0;
 }
 
 .footer-links ul li,
-.footer-social ul li {
+.footer-social ul li,
+.footer-legal ul li {
     margin-bottom: 10px;
 }
 
 .footer-links ul li a,
-.footer-social ul li a {
+.footer-social ul li a,
+.footer-legal ul li a {
     color: #6d6d6d;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .footer-links ul li a:hover,
-.footer-social ul li a:hover {
+.footer-social ul li a:hover,
+.footer-legal ul li a:hover {
     color: #db4a2b;
 }
 
@@ -94,13 +100,15 @@
 
     .footer-links,
     .footer-contact,
-    .footer-social {
+    .footer-social,
+    .footer-legal {
         margin: 20px 0;
         text-align: center;
     }
 
     .footer-links ul li,
-    .footer-social ul li {
+    .footer-social ul li,
+    .footer-legal ul li {
         display: inline-block;
         margin: 0 10px;
     }
