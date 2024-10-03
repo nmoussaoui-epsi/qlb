@@ -1,4 +1,3 @@
-// static/js/navbar.js
 document.addEventListener('DOMContentLoaded', function () {
     var navbarToggler = document.querySelector('.navbar-toggler');
     var navbarTogglerIcon = document.querySelector('.navbar-toggler-icon');

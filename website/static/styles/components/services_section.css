@@ -3,6 +3,10 @@
     padding: 50px 20px;
     background-color: #f9f9f9;
     text-align: center;
+    background-image: url('/static/images/ccchaos.svg'); /* Chemin vers votre image de fond */
+    background-size: 40%; /* Ajuster l'image pour couvrir toute la section */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
 }
 
 .section-title {
@@ -83,5 +87,9 @@
 
     .service-card {
         margin: 10px; /* Ajouter de l'espace entre les cartes */
+    }
+
+    .services-section {
+        background-size: 60%; /* Ajuster l'image pour couvrir toute la section */
     }
 }

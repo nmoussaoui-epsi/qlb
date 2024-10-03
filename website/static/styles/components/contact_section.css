@@ -1,8 +1,16 @@
 /* static/styles/components/contact_section.css */
 .contact-section {
-    padding: 50px 500px;
+    padding: 50px 20px;
     background-color: #f9f9f9;
     text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .section-title {

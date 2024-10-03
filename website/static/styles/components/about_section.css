@@ -4,6 +4,11 @@
     display: flex;
     flex-direction: column; /* Aligner les éléments en colonne */
     align-items: center; /* Centrer horizontalement */
+    background-image: url('/static/images/llleaves.svg');
+    background-size: cover; /* Ajuster l'image pour couvrir toute la section */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-size: 80% ;
 }
 
 .container {
