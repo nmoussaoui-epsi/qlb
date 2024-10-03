@@ -17,7 +17,7 @@
     background-color: #db4a2b;
     border-color: #db4a2b;
     border-radius: 30px; /* Arrondir le bouton */
-    padding: 10px 20px; /* Ajouter du padding pour un meilleur aspect */
+    padding: 5px 10px; /* Ajouter du padding pour un meilleur aspect */
     font-size: 1rem; /* Ajuster la taille de la police */
     transition: background-color 0.3s, border-color 0.3s; /* Ajouter une transition pour un effet de survol */
 }

@@ -1,0 +1,35 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'styles/components/footer_section.css' %}">
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="{% static 'images/logo.png' %}" alt="Logo">
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>123 Rue de l'Agence, Montpellier, France</p>
+                <p>Email: contact@agence.com</p>
+                <p>Téléphone: +33 1 23 45 67 89</p>
+            </div>
+            <div class="footer-social">
+                <h4>Suivez-nous</h4>
+                <ul>
+                    <li><a href="#"><img src="{% static 'icons/twitter.svg' %}" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="{% static 'icons/linkedin.svg' %}" alt="LinkedIn"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 qlb. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>

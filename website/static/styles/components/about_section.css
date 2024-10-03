@@ -1,0 +1,60 @@
+/* static/styles/components/about_section.css */
+.about-section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center; /* Centrer horizontalement */
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center; /* Centrer le texte */
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #db4a2b; /* Orange color for the word "Agence" */
+}
+
+.about-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.about-cta {
+    background-color: #db4a2b;
+    border-color: #db4a2b;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.about-cta:hover {
+    background-color: #b03a23;
+    border-color: #b03a23;
+}
+
+.about-image-container {
+    margin-top: 30px; /* Ajouter de l'espace entre le texte et l'image */
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .about-description {
+        text-align: justify;
+    }
+}

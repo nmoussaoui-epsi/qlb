@@ -1,0 +1,89 @@
+/* static/styles/components/contact_section.css */
+.contact-section {
+    padding: 50px 500px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #db4a2b;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #b03a23;
+    transform: translateY(-2px);
+}
+
+.highlight {
+    color: #db4a2b; /* Orange color for the word "Agence" */
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 30px 10px; /* Réduire le padding pour les petits écrans */
+    }
+
+    .section-title {
+        font-size: 2rem; /* Réduire la taille de la police pour les petits écrans */
+    }
+
+    .section-description {
+        font-size: 1rem; /* Réduire la taille de la police pour les petits écrans */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 0.9rem; /* Réduire la taille de la police pour les champs de formulaire sur les petits écrans */
+    }
+
+    .btn-primary {
+        padding: 10px 15px; /* Ajuster le padding du bouton pour les petits écrans */
+        font-size: 0.9rem; /* Réduire la taille de la police du bouton pour les petits écrans */
+    }
+}
