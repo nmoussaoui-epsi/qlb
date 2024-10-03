@@ -62,4 +62,9 @@
     .about-description {
         text-align: justify;
     }
+
+    .about-section {
+        background-size: 100%;
+    }
 }
+

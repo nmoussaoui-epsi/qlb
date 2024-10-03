@@ -88,9 +88,10 @@
     .service-card {
         margin: 10px; /* Ajouter de l'espace entre les cartes */
     }
-
-    .services-section {
-        background-size: 40%; /* Ajuster l'image pour couvrir toute la section */
-    }
 }
 
+@media (max-width: 767px) {
+    .services-section {
+        background-size: 100%; /* Ajuster l'image pour couvrir toute la section */
+    }
+}
